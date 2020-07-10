@@ -13,6 +13,7 @@
 		B507756124B6A4B10079A76B /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B507756024B6A4B10079A76B /* Preview Assets.xcassets */; };
 		B507756C24B6A4B10079A76B /* SwiftUiPracticeTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B507756B24B6A4B10079A76B /* SwiftUiPracticeTests.swift */; };
 		B507757724B6A4B10079A76B /* SwiftUiPracticeUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B507757624B6A4B10079A76B /* SwiftUiPracticeUITests.swift */; };
+		B54A927B24B7D818004DBD7B /* CardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B54A927A24B7D818004DBD7B /* CardView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -45,6 +46,7 @@
 		B507757224B6A4B10079A76B /* SwiftUiPracticeUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SwiftUiPracticeUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		B507757624B6A4B10079A76B /* SwiftUiPracticeUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftUiPracticeUITests.swift; sourceTree = "<group>"; };
 		B507757824B6A4B10079A76B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B54A927A24B7D818004DBD7B /* CardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -97,6 +99,7 @@
 			children = (
 				B507755924B6A4AF0079A76B /* SwiftUiPracticeApp.swift */,
 				B507755B24B6A4AF0079A76B /* ContentView.swift */,
+				B54A927A24B7D818004DBD7B /* CardView.swift */,
 				B507755D24B6A4B10079A76B /* Assets.xcassets */,
 				B507756224B6A4B10079A76B /* Info.plist */,
 				B507755F24B6A4B10079A76B /* Preview Content */,
@@ -260,6 +263,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				B507755C24B6A4AF0079A76B /* ContentView.swift in Sources */,
+				B54A927B24B7D818004DBD7B /* CardView.swift in Sources */,
 				B507755A24B6A4AF0079A76B /* SwiftUiPracticeApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

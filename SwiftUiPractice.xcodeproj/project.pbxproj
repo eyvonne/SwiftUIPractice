@@ -13,6 +13,9 @@
 		B507756124B6A4B10079A76B /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B507756024B6A4B10079A76B /* Preview Assets.xcassets */; };
 		B507756C24B6A4B10079A76B /* SwiftUiPracticeTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B507756B24B6A4B10079A76B /* SwiftUiPracticeTests.swift */; };
 		B507757724B6A4B10079A76B /* SwiftUiPracticeUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B507757624B6A4B10079A76B /* SwiftUiPracticeUITests.swift */; };
+		B519211724BE5ED200B7D63E /* SlotRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = B519211624BE5ED200B7D63E /* SlotRow.swift */; };
+		B519211924BE60F600B7D63E /* IkeaBackground.swift in Sources */ = {isa = PBXBuildFile; fileRef = B519211824BE60F600B7D63E /* IkeaBackground.swift */; };
+		B519211B24BE6C1800B7D63E /* SlotBoard.swift in Sources */ = {isa = PBXBuildFile; fileRef = B519211A24BE6C1800B7D63E /* SlotBoard.swift */; };
 		B54A927B24B7D818004DBD7B /* CardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B54A927A24B7D818004DBD7B /* CardView.swift */; };
 /* End PBXBuildFile section */
 
@@ -46,6 +49,9 @@
 		B507757224B6A4B10079A76B /* SwiftUiPracticeUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SwiftUiPracticeUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		B507757624B6A4B10079A76B /* SwiftUiPracticeUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftUiPracticeUITests.swift; sourceTree = "<group>"; };
 		B507757824B6A4B10079A76B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B519211624BE5ED200B7D63E /* SlotRow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SlotRow.swift; sourceTree = "<group>"; };
+		B519211824BE60F600B7D63E /* IkeaBackground.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IkeaBackground.swift; sourceTree = "<group>"; };
+		B519211A24BE6C1800B7D63E /* SlotBoard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SlotBoard.swift; sourceTree = "<group>"; };
 		B54A927A24B7D818004DBD7B /* CardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -99,6 +105,9 @@
 			children = (
 				B507755924B6A4AF0079A76B /* SwiftUiPracticeApp.swift */,
 				B507755B24B6A4AF0079A76B /* ContentView.swift */,
+				B519211A24BE6C1800B7D63E /* SlotBoard.swift */,
+				B519211824BE60F600B7D63E /* IkeaBackground.swift */,
+				B519211624BE5ED200B7D63E /* SlotRow.swift */,
 				B54A927A24B7D818004DBD7B /* CardView.swift */,
 				B507755D24B6A4B10079A76B /* Assets.xcassets */,
 				B507756224B6A4B10079A76B /* Info.plist */,
@@ -262,9 +271,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B519211B24BE6C1800B7D63E /* SlotBoard.swift in Sources */,
 				B507755C24B6A4AF0079A76B /* ContentView.swift in Sources */,
 				B54A927B24B7D818004DBD7B /* CardView.swift in Sources */,
+				B519211724BE5ED200B7D63E /* SlotRow.swift in Sources */,
 				B507755A24B6A4AF0079A76B /* SwiftUiPracticeApp.swift in Sources */,
+				B519211924BE60F600B7D63E /* IkeaBackground.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

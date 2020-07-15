@@ -17,7 +17,7 @@ struct CardView: View {
                 .resizable(capInsets: EdgeInsets(), resizingMode: .stretch)
                 .aspectRatio(contentMode: .fit)
                 .padding(.all, 10)
-                .padding(.vertical, .infinity)
+                .frame(maxHeight:.infinity)
                 .background(Color.green.opacity(0.6))
                 .cornerRadius(20)
         }
@@ -27,7 +27,7 @@ struct CardView: View {
                 .resizable(capInsets: EdgeInsets(), resizingMode: .stretch)
                 .aspectRatio(contentMode: .fit)
                 .padding(.all, 10)
-                .padding(.vertical, .infinity)
+                .frame(maxHeight:.infinity)
                 .background(Color.white.opacity(0.6))
                 .cornerRadius(20)
         }

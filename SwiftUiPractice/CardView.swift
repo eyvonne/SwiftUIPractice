@@ -15,9 +15,8 @@ struct CardView: View {
         if winning{
             Image(systemName: symbolName)
                 .resizable(capInsets: EdgeInsets(), resizingMode: .stretch)
-                .aspectRatio(contentMode: .fit)
+                .aspectRatio(CGFloat(1.0), contentMode: .fit)
                 .padding(.all, 10)
-                .frame(maxHeight:.infinity)
                 .background(Color.green.opacity(0.6))
                 .cornerRadius(20)
         }
@@ -25,9 +24,8 @@ struct CardView: View {
         {
             Image(systemName: symbolName)
                 .resizable(capInsets: EdgeInsets(), resizingMode: .stretch)
-                .aspectRatio(contentMode: .fit)
+                .aspectRatio(CGFloat(1.0), contentMode: .fit)
                 .padding(.all, 10)
-                .frame(maxHeight:.infinity)
                 .background(Color.white.opacity(0.6))
                 .cornerRadius(20)
         }
